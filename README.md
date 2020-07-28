@@ -1,4 +1,4 @@
-# Stock Price Prediction with Vector Autoregression Model
+# Stock Price Prediction using Vector Autoregression
 
 Predicting Stock Prices of Microsoft using the Vector Autoregression class from statsmodels module.
 
@@ -14,6 +14,8 @@ pip install statsmodels
 ```
 conda install -c conda-forge statsmodels
 ```
+## Dataset
+Dataset was downloaded from [MSFT page on Yahoo Finance](https://query1.finance.yahoo.com/v7/finance/download/MSFTperiod1=1564292375&period2=1595914775&interval=1d&events=history)
 
 ## Built With
 * [Vector Autoregression](https://www.statsmodels.org/stable/generated/statsmodels.tsa.vector_ar.var_model.VAR.html#statsmodels.tsa.vector_ar.var_model.VAR)
