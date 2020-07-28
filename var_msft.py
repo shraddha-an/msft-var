@@ -9,9 +9,8 @@ df = pd.read_csv('msft.csv')
 df.plot(kind = 'line')
 df.drop(columns = ['Date'], inplace = True)
 
-# Plot each TS to look at trends
+# Plot each Time Series column to look at trends
 sb.set_style('darkgrid')
-plt.figure(figsize = (10, 6))
 
 fig, axes = plt.subplots(nrows  = 3, ncols = 2, dpi = 120)
 for i, ax in enumerate(axes.flatten()):
